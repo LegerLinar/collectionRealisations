@@ -10,7 +10,7 @@ public class Main {
 
         List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
         for (Integer num : nums) {
-            if (num % 2 == 0) {
+            if (num % 2 != 0) {
                 System.out.println(num);
             }
         }
